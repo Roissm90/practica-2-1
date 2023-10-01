@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-all {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid lightgray;
+}
+
+.container-logo {
+    width: 160px;
+
+    margin-left: 30px;
+}
+
+.container-logo > img {
+    width: 100%;
+}
+
+.container-sign {
+    width: 160px;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.container-sign > a {
+    color: blue;
+    text-decoration: none;
+}
+
+.container-sign > a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-tittle {
+    width: 600px;
+    max-width: 70%;
+    
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.form-tittle > p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.container-register {
+    width: 600px;
+    max-width: 70%;
+    
+    margin-left: 100px;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-register__google, .container-register__facebook {
+    height: 24px;
+    padding-left: 2px;
+
+    border-radius: 5%;
+
+    display: flex;
+    align-items: center;
+}
+
+.container-register__google {
+    background-color: #25C5E6;
+}
+
+.container-register__facebook {
+    background-color: #005FA8;
+    margin-left: 30px;
+}
+
+.container-register__logo-google {
+    width: 20px;
+    height: 20px;
+}
+
+.container-register__logo-facebook {
+    width: 20px;
+    height: 20px;
+
+    margin-top: 0px;
+}
+
+.container-register__logo-google + a, .container-register__logo-facebook + a {
+    color: black;
+    text-decoration: none;
+}
+
+.container-register__logo-google > img, .container-register__logo-facebook > img {
+    width: 100%;
+    height: 100%;
+}
+
+.register-form {
+    width: 600px;
+    max-width: 70%;
+    
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.register-form > p, .register-form > label, .register-form > input, .register-form > div {
+    margin-top: 20px;
+}
+
+label[for="email"], label[for="password"] {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.register-form > input {
+    height: 40px;
+}
+
+.container-input-checkbox {
+    margin-bottom: 20px;
+}
+
+.container-input-checkbox > label > a {
+    color:#25C5E6;
+    text-decoration: none;
+}
+
+.container-input-checkbox > label > a:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    width: 230px;
+    margin-left: 30px;
+
+    border-radius: 60px;
+    border: dotted;
+
+    background-color: transparent;
+    cursor: pointer;
+}
+
+footer {
+    border-top: 2px solid lightgray;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 100px;
+}
+
+footer > .container-footer-1 {
+    width: 150px;
+    max-width: 70%;
+
+    margin-left: 30px;
+}
+
+footer > .container-footer-2 {
+    width: 200px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    color: Black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
